@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="AndroidAutorotation" package="com.example.androidautorotation" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="AndroidAutorotation" />
+	
+	<window orientation="landscape" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+	<android minimum-sdk-version="10" />
+	<android target-sdk-version="10" />
+	
+	<template path="templates/android/AndroidManifest.xml" rename="AndroidManifest.xml"	if="android" />
+</project>
