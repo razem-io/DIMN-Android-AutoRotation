@@ -4,7 +4,7 @@
 	<meta title="AndroidAutorotation" package="com.example.androidautorotation" version="1.0.0" company="Company Name" />
 	<app main="Main" path="Export" file="AndroidAutorotation" />
 	
-	<window orientation="landscape" />
+	<window orientation="portrait" />
 	
 	<source path="Source" />
 	
